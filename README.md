@@ -1,4 +1,4 @@
-## ESPKnack, LoRa, Isolated I/Os, RS485, 5-60V, 4-24mA, Relays, DIN SDK
+## ESPKnack, LoRa, Isolated I/Os, RS485, 5-60V, 4-20mA, Relays, DIN SDK
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
