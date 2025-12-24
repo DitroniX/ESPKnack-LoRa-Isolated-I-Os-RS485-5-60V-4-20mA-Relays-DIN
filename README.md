@@ -24,7 +24,7 @@
  - **Chipanalog CA-IS2092**
 	 - Industry Standard Galvanic Isolated RS-485 interface
  - **RTC DS3231SN**
-	 - 5V to 3V3 DC SMPS	 	 
+	 - Accurate RTC with optional Battery Backup 	 
  - **4-20mA Current Loop**	 
 	 - HCNR200-500E - Galvanic Isolation
  - **ADC ADS1115**
@@ -180,7 +180,8 @@ A range of libraries are already available which support the devices on the **ES
 -   E22-900MM22S (SX1262)
 -   EEPROM J1424C64
 -   ADS1115
--   TCA6408 
+-   TCA6408
+-   DS3231SN
 -   OLED Display
 -   RS485
 -   TMP102
