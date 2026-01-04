@@ -11,37 +11,39 @@
 
 ## Availability
 
-**ESPKnack** Launching on KickStarter in January
+**ESPKnack** Launching on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din) in January
 
 ## Feature Overview
 
 ### **What is ESPKnack?**
+**ESPKnack** is an Electronic SDK board, which can be used in a wide range of projects.
+
+It includes LoRa SX1262 Transceiver, Galvanic Isolated I/Os & RS485, 4-20mA Current Loop, ADC, RTC and Up to 60V Operating Voltage.
 
  - **Espressif ESP32-C6 U.FL**
 	 - WiFi, Bluetooth, Zigbee and Thread
  - **EByte E22-900MM22S**
-	 - LoRa SX1262 module for 868MHz through to 915MHz
+	 - LoRa (LoRaWAN), SX1262 module for 868MHz through to 915MHz
  - **Chipanalog CA-IS2092**
 	 - Industry Standard Galvanic Isolated RS-485 interface
  - **RTC DS3231SN**
-	 - Accurate RTC with optional Battery Backup 	 
+	 - Accurate RTC (with optional Battery Backup)
  - **4-20mA Current Loop**	 
 	 - HCNR200-500E - Galvanic Isolation
  - **ADC ADS1115**
-	 - 16bit 4 Channels
+	 - 16bit 4 Channels (Useable 3)
  - **TI TMP102**
-	 - Digital Temperature
+	 - Digital Temperature Board Sensor
  - **FET 2N7002DW**
 	 - PWM/GPIO Output Galvanic Isolation
  - **Relays SRD-05VDC-SL-CC**
-	 - 15A 250VAC SPDT - CO - Galvanic Isolation
+	 - 10A 250VAC or 10A 30V DC SPDT - NO/NC - Galvanically Isolated Contacts
  - **Siproin SSP9481**
 	 - 5 to 60V DC SMPS for wide ranging power input, providing a stable 5V
  - **OnSemi NCP167BMX330**
 	 - 5V to 3V3 DC SMPS	 
  - **EEPROM P24C64C**
 	 - 64Kbit storage
-	 - Two EEPROMs are included, one for ATGM336H and one for the ESP32-C6.
 
    
 ### **Where can ESPKnack be used?**
