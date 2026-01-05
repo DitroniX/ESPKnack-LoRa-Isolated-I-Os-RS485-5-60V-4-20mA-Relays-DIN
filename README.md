@@ -7,7 +7,8 @@
 [**For Latest Project Updates - Click Here**](https://github.com/DitroniX/ESPRanger-LoRa-GNSS-GPS-IMU-RS485-60V?tab=readme-ov-file#updates)
 
 ## Updates
--   25-12-24  - Alpha Design, Schematics and Layout Topology
+-   26-01-05 - The Kickstarter ESPKnack project has been formed.  A basic preview video made and uploaded.   A complete video to follow once the beta boards arrive.
+-   25-12-24 - Alpha Design, Schematics and Layout Topology
 
 ## Availability
 
