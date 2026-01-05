@@ -51,22 +51,16 @@ It includes LoRa SX1262 Transceiver, Galvanic Isolated I/Os & RS485, 4-20mA Curr
 The **ESPKnack** board can be used in a wide range of projects and installations such as:
 
 -   Agriculture
--   Animal Monitoring
 -   Automation
 -   Commercial
--   Drones
 -   Emergency Response
 -   Factories
 -   Farms
--   FPV Radio Controlled Vehicles
 -   Greenhouses
 -   Homes
 -   Industry
 -   Livestock Monitoring
--   LoRa GPS Tracker
 -   Makers
--   Mapping
--   Modelling
 -   Off Grid Systems
 -   Robotics
 -   Scientific Research
@@ -76,8 +70,6 @@ The **ESPKnack** board can be used in a wide range of projects and installations
 -   Solar Farms
 -   STEM Education
 -   Surveillance
--   Surveying
--   Tracking
 -   Wind Farms
 
 ## Features (Preliminary)
