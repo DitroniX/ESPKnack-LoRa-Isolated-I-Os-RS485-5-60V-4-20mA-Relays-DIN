@@ -24,7 +24,7 @@ It includes LoRa SX1262 Transceiver, Galvanic Isolated I/Os & RS485, 4-20mA Curr
  - **Espressif ESP32-C6 U.FL**
 	 - WiFi, Bluetooth, Zigbee and Thread
  - **EByte E22-900MM22S**
-	 - LoRa (LoRaWAN), SX1262 module for 868MHz through to 915MHz
+	 - LoRa (LoRaWAN), SX1262 module for 850 MHz through to 930 MHz
  - **Chipanalog CA-IS2092**
 	 - Industry Standard Galvanic Isolated RS-485 interface
  - **RTC DS3231SN**
