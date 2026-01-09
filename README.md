@@ -114,7 +114,7 @@ Zigbee and mesh are expanding in an range of home, farming and industrial applic
 
 The main focus of the **ESPKnack** board was sensor flexibility and the ability to send this data to the outside world.  LoRa provides a Long Range wireless communication technology.
 
-The **ESPKnack** includes an EByte E22-900MM22S LoRa module, with Semtech SX1262.  This module covers 850 to 930MHz, so allowing the ESPRanger to work in many countries around the World.  
+The **ESPKnack** includes an EByte E22-900MM22S LoRa module, with Semtech SX1262.  This module covers 850 to 930MHz, so allowing the **ESPKnack** to work in many countries around the World.  
 
 Example [bands](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/):
 
