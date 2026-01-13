@@ -4,44 +4,47 @@
 
 ![ESPKnack Features](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-24mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20-%20Features.png)
 
-[**For Latest Project Updates - Click Here**](https://github.com/DitroniX/ESPRanger-LoRa-GNSS-GPS-IMU-RS485-60V?tab=readme-ov-file#updates)
+[**For Latest Project Updates - Click Here**](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN?tab=readme-ov-file#updates)
 
 ## Updates
--   25-12-24  - Alpha Design, Schematics and Layout Topology
+-   26-01-05 - The Kickstarter ESPKnack project has been formed.  A basic preview video made and uploaded.   A complete video to follow once the beta boards arrive.
+-   25-12-24 - Alpha Design, Schematics and Layout Topology
 
 ## Availability
 
-**ESPKnack** Launching on KickStarter in January
+**ESPKnack** Launching on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din) in January
 
 ## Feature Overview
 
 ### **What is ESPKnack?**
+**ESPKnack** is an Electronic SDK board, which can be used in a wide range of projects.
+
+It includes LoRa SX1262 Transceiver, Galvanic Isolated I/Os & RS485, 4-20mA Current Loop, ADC, RTC and Up to 60V Operating Voltage.
 
  - **Espressif ESP32-C6 U.FL**
 	 - WiFi, Bluetooth, Zigbee and Thread
  - **EByte E22-900MM22S**
-	 - LoRa SX1262 module for 868MHz through to 915MHz
+	 - LoRa (LoRaWAN), SX1262 module for 850 MHz through to 930 MHz
  - **Chipanalog CA-IS2092**
 	 - Industry Standard Galvanic Isolated RS-485 interface
  - **RTC DS3231SN**
-	 - Accurate RTC with optional Battery Backup 	 
+	 - Accurate RTC (with optional Battery Backup)
  - **4-20mA Current Loop**	 
 	 - HCNR200-500E - Galvanic Isolation
  - **ADC ADS1115**
-	 - 16bit 4 Channels
+	 - 16bit 4 Channels (Useable 3)
  - **TI TMP102**
-	 - Digital Temperature
+	 - Digital Temperature Board Sensor
  - **FET 2N7002DW**
 	 - PWM/GPIO Output Galvanic Isolation
  - **Relays SRD-05VDC-SL-CC**
-	 - 15A 250VAC SPDT - CO - Galvanic Isolation
+	 - 10A 250VAC or 10A 30V DC SPDT - NO/NC - Galvanically Isolated Contacts
  - **Siproin SSP9481**
 	 - 5 to 60V DC SMPS for wide ranging power input, providing a stable 5V
  - **OnSemi NCP167BMX330**
 	 - 5V to 3V3 DC SMPS	 
  - **EEPROM P24C64C**
 	 - 64Kbit storage
-	 - Two EEPROMs are included, one for ATGM336H and one for the ESP32-C6.
 
    
 ### **Where can ESPKnack be used?**
@@ -49,22 +52,16 @@
 The **ESPKnack** board can be used in a wide range of projects and installations such as:
 
 -   Agriculture
--   Animal Monitoring
 -   Automation
 -   Commercial
--   Drones
 -   Emergency Response
 -   Factories
 -   Farms
--   FPV Radio Controlled Vehicles
 -   Greenhouses
 -   Homes
 -   Industry
 -   Livestock Monitoring
--   LoRa GPS Tracker
 -   Makers
--   Mapping
--   Modelling
 -   Off Grid Systems
 -   Robotics
 -   Scientific Research
@@ -74,8 +71,6 @@ The **ESPKnack** board can be used in a wide range of projects and installations
 -   Solar Farms
 -   STEM Education
 -   Surveillance
--   Surveying
--   Tracking
 -   Wind Farms
 
 ## Features (Preliminary)
@@ -119,7 +114,7 @@ Zigbee and mesh are expanding in an range of home, farming and industrial applic
 
 The main focus of the **ESPKnack** board was sensor flexibility and the ability to send this data to the outside world.  LoRa provides a Long Range wireless communication technology.
 
-The **ESPKnack** includes an EByte E22-900MM22S LoRa module, with Semtech SX1262.  This module covers 850 to 930MHz, so allowing the ESPRanger to work in many countries around the World.  
+The **ESPKnack** includes an EByte E22-900MM22S LoRa module, with Semtech SX1262.  This module covers 850 to 930MHz, so allowing the **ESPKnack** to work in many countries around the World.  
 
 Example [bands](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/):
 
