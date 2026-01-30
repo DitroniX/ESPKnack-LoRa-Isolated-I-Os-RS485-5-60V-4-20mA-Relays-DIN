@@ -2,7 +2,7 @@
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
-![ESPKnack Features](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-24mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20-%20Features.png)
+![ESPKnack Features](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20-%20Feature%2016-9.png)
 
 [**For Latest Project Updates - Click Here**](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN?tab=readme-ov-file#updates)
 
