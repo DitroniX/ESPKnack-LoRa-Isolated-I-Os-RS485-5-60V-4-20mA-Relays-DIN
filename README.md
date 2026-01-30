@@ -7,6 +7,7 @@
 [**For Latest Project Updates - Click Here**](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN?tab=readme-ov-file#updates)
 
 ## Updates
+-   26-01-14 - The ESPKnack Main and Panel Beta boards should be back from fabrication in about a week.  I will then provide an updated video of this excellent new project, in preparation for launch on Kickstarter.
 -   26-01-05 - The Kickstarter ESPKnack project has been formed.  A basic preview video made and uploaded.   A complete video to follow once the beta boards arrive.
 -   25-12-24 - Alpha Design, Schematics and Layout Topology
 
