@@ -25,6 +25,8 @@
 
 ![ESPKnack Enclosure Proto](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20in%20DIN%20Enclosure%20(Accessories).png)
 
+![ESPKnack and ESPKnack Panel](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20and%20ESPKnack%20Panel%20Connected.png)
+
 It includes LoRa SX1262 Transceiver, Galvanic Isolated I/Os & RS485, 4-20mA Current Loop, ADC, RTC and Up to 60V Operating Voltage.
 
  - **Espressif ESP32-C6 U.FL**
