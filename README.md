@@ -14,6 +14,7 @@
 
 
 ## Updates
+-   26-02-18 - All elements of the ESPKnack are together and tested.  Just awaiting Kickstarter Trust & Safety, to sign this off, so I can press the launch button!  Hopefully any day now..  
 -   26-01-30 - ESPKnack Proto boards arrived, populated and ready for testing.
 -   26-01-14 - The ESPKnack Main and Panel Beta boards should be back from fabrication in about a week.  I will then provide an updated video of this excellent new project, in preparation for launch on Kickstarter.
 -   26-01-05 - The Kickstarter ESPKnack project has been formed.  A basic preview video made and uploaded.   A complete video to follow once the beta boards arrive.
