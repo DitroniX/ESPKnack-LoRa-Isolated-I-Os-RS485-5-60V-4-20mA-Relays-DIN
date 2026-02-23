@@ -12,7 +12,7 @@ The **IPEM Plus** board is designed to fit a DIN Enclosure, complete with option
 The **IPEM Plus** board maybe also mounted within a standard enclosure, without the DIN option.
 
 *Preview*
-![PREVIEW of IPEM Plus in DIN Enclosure Accessories](Datasheets%20and%20Information/IPEM%20Plus%20in%20DIN%20Enclosure%20%28Accessories%29.png)
+![PREVIEW of IPEM Plus in DIN Enclosure Accessories](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20in%20DIN%20Enclosure%20(Accessories).png)
 
 **NEW SDK BOARD** - Availability planned for April 2026.
 
