@@ -14,6 +14,7 @@
 
 
 ## Updates
+-   26-03-08 - New Video finally completed.  Thispresented to Kickstarter, so hopefully they can release the campaign.
 -   26-02-18 - All elements of the ESPKnack are together and tested.  Just awaiting Kickstarter Trust & Safety, to sign this off, so I can press the launch button!  Hopefully any day now..  
 -   26-01-30 - ESPKnack Proto boards arrived, populated and ready for testing.
 -   26-01-14 - The ESPKnack Main and Panel Beta boards should be back from fabrication in about a week.  I will then provide an updated video of this excellent new project, in preparation for launch on Kickstarter.
@@ -22,7 +23,7 @@
 
 ## Availability
 
-**ESPKnack** Launching on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din) in January
+**ESPKnack** Launching on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din) in March
 
 ## Feature Overview
 
