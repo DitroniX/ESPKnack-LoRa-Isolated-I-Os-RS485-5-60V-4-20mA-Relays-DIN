@@ -2,11 +2,10 @@
 
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
-[![DitroniX WiKi Pages](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/GitGub%20WiKi.png?raw=true)](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/wiki)
+[ESPKnack YouTube](https://youtu.be/RSdbHdnQI7o)
+[![DitroniX WiKi Pages](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20-%20Feature%20-%20YouTube.png?raw=true)](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/wiki)
 
 [**For Latest Project Updates - Click Here**](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN?tab=readme-ov-file#updates)
-
-![ESPKnack Features](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20-%20Feature%2016-9.png)
 
 ## See ESPKnack on Kickstarter
 
@@ -14,7 +13,7 @@
 
 
 ## Updates
--   26-03-08 - New Video finally completed.  Thispresented to Kickstarter, so hopefully they can release the campaign.
+-   26-03-08 - New Video finally completed.  This presented to Kickstarter, so hopefully they can release the campaign.
 -   26-02-18 - All elements of the ESPKnack are together and tested.  Just awaiting Kickstarter Trust & Safety, to sign this off, so I can press the launch button!  Hopefully any day now..  
 -   26-01-30 - ESPKnack Proto boards arrived, populated and ready for testing.
 -   26-01-14 - The ESPKnack Main and Panel Beta boards should be back from fabrication in about a week.  I will then provide an updated video of this excellent new project, in preparation for launch on Kickstarter.
