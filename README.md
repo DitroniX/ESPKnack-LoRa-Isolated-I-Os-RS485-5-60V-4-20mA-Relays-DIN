@@ -13,6 +13,7 @@
 
 
 ## Updates
+-   26-03-11 - Launched on Kickstarter.
 -   26-03-08 - New Video finally completed.  This presented to Kickstarter, so hopefully they can release the campaign.
 -   26-02-18 - All elements of the ESPKnack are together and tested.  Just awaiting Kickstarter Trust & Safety, to sign this off, so I can press the launch button!  Hopefully any day now..  
 -   26-01-30 - ESPKnack Proto boards arrived, populated and ready for testing.
