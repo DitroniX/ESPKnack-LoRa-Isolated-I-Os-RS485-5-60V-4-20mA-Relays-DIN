@@ -27,7 +27,17 @@ Timeline Guide
 
 ## Availability and Timeline.
 
-**ESPKnack** Launching on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din) in March, with planned shipping in May.
+**ESPKnack** Launched on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din) in March, with planned shipping in May.
+
+## Post Campaign Availability
+
+The **ESPKnack** and its accessories, will be available on my webstore and also on eBay.
+
+DitroniX [Webstore](https://ditronix.net/)
+
+DitroniX [eBay](https://www.ebay.co.uk/usr/ditronixuk)
+
+Any queries or requirements, please [contact me.](https://ditronix.net/contact/)
 
 ## Feature Overview
 
