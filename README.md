@@ -14,6 +14,9 @@
 
 
 ## Updates
+Timeline Guide
+![TimelineGuide](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20Guide%20Timeline.png)
+
 -   26-03-11 - Launched on Kickstarter.
 -   26-03-08 - New Video finally completed.  This presented to Kickstarter, so hopefully they can release the campaign.
 -   26-02-18 - All elements of the ESPKnack are together and tested.  Just awaiting Kickstarter Trust & Safety, to sign this off, so I can press the launch button!  Hopefully any day now..  
@@ -24,7 +27,17 @@
 
 ## Availability and Timeline.
 
-**ESPKnack** Launching on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din) in March, with planned shipping in Late april, Early May.
+**ESPKnack** Launched on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din) in March, with planned shipping in May.
+
+## Post Campaign Availability
+
+The **ESPKnack** and its accessories, will be available on my webstore and also on eBay.
+
+DitroniX [Webstore](https://ditronix.net/)
+
+DitroniX [eBay](https://www.ebay.co.uk/usr/ditronixuk)
+
+Any queries or requirements, please [contact me.](https://ditronix.net/contact/)
 
 ## Feature Overview
 
