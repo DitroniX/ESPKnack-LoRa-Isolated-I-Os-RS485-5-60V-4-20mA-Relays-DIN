@@ -1,5 +1,11 @@
 ** ESPKnack, LoRa, Isolated I/Os, RS485, 5-60V, 4-24mA, Relays, DIN SDK **
 
+  Further information, details and examples can be found on our website and also GitHub wiki pages:
+  * github.com/DitroniX
+  * github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN
+  * github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/wiki
+  * hackster.io/DitroniX/espknack-lora-isolated-i-os-rs485-5-60v-4-20ma-relays-sdk-b70677
+
 ------------
 
 This folder contains Example Source Code.
@@ -8,8 +14,8 @@ This folder contains Example Source Code.
 
   PlatformIO code will automatically load required libraries and configure board.   See platformio.ini for information,
 
-  Remember!  If ESP32-C3 based:
-  - Set the BOARD to ESP32-C3 DEV MODULE (or similar).
+  Remember!  If ESP32-C6 based:
+  - Set the BOARD to ESP32-C6 DEV MODULE (or similar).
   - You may set the BAUD rate to 921600 to speed up flashing.
   - The SDK does NOT need external power to flash and will take Power from the USB 5V.
   
