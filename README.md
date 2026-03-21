@@ -19,7 +19,7 @@
 Timeline Guide
 ![TimelineGuide](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20Guide%20Timeline.png)
 
--   26-03-20 - Production board now in.
+-   26-03-20 - Production board now in.  This includes the E22-900M22S (SX1262), which has FCC and CE.
 -   26-03-11 - Launched on Kickstarter.
 -   26-03-08 - New Video finally completed.  This presented to Kickstarter, so hopefully they can release the campaign.
 -   26-02-18 - All elements of the ESPKnack are together and tested.  Just awaiting Kickstarter Trust & Safety, to sign this off, so I can press the launch button!  Hopefully any day now..  
@@ -57,7 +57,7 @@ It includes LoRa SX1262 Transceiver, Galvanic Isolated I/Os & RS485, 4-20mA Curr
 
  - **Espressif ESP32-C6 U.FL**
 	 - WiFi, Bluetooth, Zigbee and Thread
- - **EByte E22-900MM22S**
+ - **EByte E22-900M22S**
 	 - LoRa (LoRaWAN), SX1262 module for 850 MHz through to 930 MHz
  - **Chipanalog CA-IS2092**
 	 - Industry Standard Galvanic Isolated RS-485 interface
@@ -148,7 +148,7 @@ Zigbee and mesh are expanding in an range of home, farming and industrial applic
 
 The main focus of the **ESPKnack** board was sensor flexibility and the ability to send this data to the outside world.  LoRa provides a Long Range wireless communication technology.
 
-The **ESPKnack** includes an EByte E22-900MM22S LoRa module, with Semtech SX1262.  This module covers 850 to 930MHz, so allowing the **ESPKnack** to work in many countries around the World.  
+The **ESPKnack** includes an EByte E22-900M22S LoRa module, with Semtech SX1262.  This module covers 850 to 930MHz, so allowing the **ESPKnack** to work in many countries around the World.  
 
 Example [bands](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/):
 
@@ -206,7 +206,7 @@ Development is primarily supported through Visual Studio Code (VSCode and Platfo
 A range of libraries are already available which support the devices on the **ESPKnack** such as the:
 
 -   ESP32-C6
--   E22-900MM22S (SX1262)
+-   E22-900M22S (SX1262)
 -   EEPROM J1424C64
 -   ADS1115
 -   TCA6408
