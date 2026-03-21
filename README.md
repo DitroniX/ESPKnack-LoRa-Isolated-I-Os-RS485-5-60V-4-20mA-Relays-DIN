@@ -47,7 +47,7 @@ Any queries or requirements, please [contact me.](https://ditronix.net/contact/)
 ### **What is ESPKnack?**
 **ESPKnack** is an Electronic SDK board, which can be used in a wide range of projects.
 
-![ESPKnack Proto](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20Proto%20(Angled).png)
+![ESPKnack](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20SDK.png)
 
 ![ESPKnack Enclosure Proto](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20in%20DIN%20Enclosure%20(Accessories).png)
 
