@@ -21,6 +21,7 @@ Timeline Guide
 ![TimelineGuide](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20Guide%20Timeline.png)
 
 -   26-03-27 - GitHub Wiki Pages Expanded, along with Code Examples.
+-   26-03-26 - Kickstarter 100% backed, which is fantatic. Many thanks to all who supported so far. Please keep promoting where possible to gain further community support.
 -   26-03-20 - Production board now in.  This includes the E22-900M22S (SX1262), which has FCC and CE.
 -   26-03-11 - Launched on Kickstarter.
 -   26-03-08 - New Video finally completed.  This presented to Kickstarter, so hopefully they can release the campaign.
