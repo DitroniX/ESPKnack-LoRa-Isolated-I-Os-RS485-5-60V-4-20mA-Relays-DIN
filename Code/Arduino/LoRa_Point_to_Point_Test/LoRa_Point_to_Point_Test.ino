@@ -52,7 +52,7 @@ Adafruit_NeoPixel ws2812b(1, PIN_WS2812B, NEO_GRB + NEO_KHZ800);
 #define SPI_SCK 19
 #define SPI_CS 14
 
-// ESPRanger
+// ESPKnack
 #define E22_IRQ 1
 #define E22_NRST 21
 #define E22_BUSY 3
