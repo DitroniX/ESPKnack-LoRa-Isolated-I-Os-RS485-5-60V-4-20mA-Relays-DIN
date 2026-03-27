@@ -7,7 +7,8 @@
 ![ESPKnack IoT Controller](https://raw.githubusercontent.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/main/Datasheets%20and%20Information/ESPKnack%20-%20Feature%2016-9.png)
 
 [ESPKnack YouTube](https://youtu.be/RSdbHdnQI7o)
-[![DitroniX WiKi Pages](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20-%20Feature%20-%20YouTube.png?raw=true)](https://youtu.be/RSdbHdnQI7o)
+
+[![DitroniX WiKi Pages](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/GitHub%20WiKi.png?raw=true)](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/wiki)
 
 
 ## See ESPKnack on Kickstarter
