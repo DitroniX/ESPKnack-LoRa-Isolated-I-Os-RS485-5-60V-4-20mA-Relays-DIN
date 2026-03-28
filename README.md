@@ -103,11 +103,12 @@ The **ESPKnack** board can be used in a wide range of projects and installations
 
 ### **Radio and U.FL**
 
-**ESPKnack** main MCU is the ESP32-C6 which includes a powerful radio module, opening up a range of IoT applications that include:
+**ESPKnack** main MCU is the ESP32-C5 which includes a powerful radio module, opening up a range of IoT applications that include:
 
 #### Wi-Fi 6
 
--   2.4 GHz (2400 ~ 2483.5 MHz)
+-   2.4 GHz Wi-Fi (2400 ~ 2483.5 MHz)
+-   5 GHz Wi-Fi
 -   802.11ax (20 MHz bandwidth)
 -   802.11b/g/n (20/40 MHz bandwidth)
 -   CE Max EIRP 19.81 dBm
