@@ -27,7 +27,7 @@ It has been designed to easily monitor, and offer a flexible interface too, a wh
 
 **Home | Industry | Housing | Educational | Farming | Agriculture | Solar | Energy**
 
-Using its 2.4GHz, 5GHz, Thread and Zigbee ESP32-C5 radio module, you can use the ESPKnack to connect to a whole range of Smart Monitoring applications and projects.
+Using its 2.4GHz Wi-Fi, Thread and Zigbee ESP32-C6 radio module, you can use the ESPKnack to connect to a whole range of Smart Monitoring applications and projects.
 
 Extending further, the built-in LoRa radio opens up long range and remote monitoring.
 
