@@ -16,21 +16,6 @@
 [![DitroniX Kickstarter](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/KickStarter.png?raw=true)](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din)
 
 
-## Updates
-Timeline Guide
-![TimelineGuide](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20Guide%20Timeline.png)
-
--   26-03-27 - GitHub Wiki Pages Expanded, along with Code Examples.
--   26-03-26 - Kickstarter 100% backed, which is fantatic. Many thanks to all who supported so far. Please keep promoting where possible to gain further community support.
--   26-03-20 - Production board now in.  This includes the E22-900M22S (SX1262), which has FCC and CE.
--   26-03-11 - Launched on Kickstarter.
--   26-03-08 - New Video finally completed.  This presented to Kickstarter, so hopefully they can release the campaign.
--   26-02-18 - All elements of the ESPKnack are together and tested.  Just awaiting Kickstarter Trust & Safety, to sign this off, so I can press the launch button!  Hopefully any day now..  
--   26-01-30 - ESPKnack Proto boards arrived, populated and ready for testing.
--   26-01-14 - The ESPKnack Main and Panel Beta boards should be back from fabrication in about a week.  I will then provide an updated video of this excellent new project, in preparation for launch on Kickstarter.
--   26-01-05 - The Kickstarter ESPKnack project has been formed.  A basic preview video made and uploaded.   A complete video to follow once the beta boards arrive.
--   25-12-24 - Alpha Design, Schematics and Layout Topology
-
 
 ## Feature Overview
 
@@ -226,6 +211,21 @@ A range of libraries are already available which support the devices on the **ES
 Code support is available in my existing [GitHub](https://github.com/DitroniX)  [code](https://github.com/DitroniX/ESPRanger-LoRa-GNSS-GPS-IMU-RS485-60V/tree/main/Code).
 
 This is a worldwide community project and is able to be integrated in so many systems.
+
+## Updates
+Timeline Guide
+![TimelineGuide](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20Guide%20Timeline.png)
+
+-   26-03-27 - GitHub Wiki Pages Expanded, along with Code Examples.
+-   26-03-26 - Kickstarter 100% backed, which is fantatic. Many thanks to all who supported so far. Please keep promoting where possible to gain further community support.
+-   26-03-20 - Production board now in.  This includes the E22-900M22S (SX1262), which has FCC and CE.
+-   26-03-11 - Launched on Kickstarter.
+-   26-03-08 - New Video finally completed.  This presented to Kickstarter, so hopefully they can release the campaign.
+-   26-02-18 - All elements of the ESPKnack are together and tested.  Just awaiting Kickstarter Trust & Safety, to sign this off, so I can press the launch button!  Hopefully any day now..  
+-   26-01-30 - ESPKnack Proto boards arrived, populated and ready for testing.
+-   26-01-14 - The ESPKnack Main and Panel Beta boards should be back from fabrication in about a week.  I will then provide an updated video of this excellent new project, in preparation for launch on Kickstarter.
+-   26-01-05 - The Kickstarter ESPKnack project has been formed.  A basic preview video made and uploaded.   A complete video to follow once the beta boards arrive.
+-   25-12-24 - Alpha Design, Schematics and Layout Topology
 
 ## Availability and Timeline.
 
