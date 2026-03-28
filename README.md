@@ -31,24 +31,20 @@ Timeline Guide
 -   26-01-05 - The Kickstarter ESPKnack project has been formed.  A basic preview video made and uploaded.   A complete video to follow once the beta boards arrive.
 -   25-12-24 - Alpha Design, Schematics and Layout Topology
 
-## Availability and Timeline.
-
-**ESPKnack** Launched on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din) in March, with planned shipping in May.
-
-## Post Campaign Availability
-
-The **ESPKnack** and its accessories, will be available on my webstore and also on eBay.
-
-DitroniX [Webstore](https://ditronix.net/)
-
-DitroniX [eBay](https://www.ebay.co.uk/usr/ditronixuk)
-
-Any queries or requirements, please [contact me.](https://ditronix.net/contact/)
 
 ## Feature Overview
 
 ### **What is ESPKnack?**
-**ESPKnack** is an Electronic SDK board, which can be used in a wide range of projects.
+
+**ESPKnack** is a powerful Smart Home and Industry Automation Board, and Kit.
+
+It has been designed to easily monitor, and offer a flexible interface too, a whole range of external devices.
+
+**Home | Industry | Housing | Educational | Farming | Agriculture | Solar | Energy**
+
+Using its 2.4GHz, 5GHz, Thread and Zigbee ESP32-C5 radio module, you can use the ESPKnack to connect to a whole range of Smart Monitoring applications and projects.
+
+Extending further, the built-in LoRa radio opens up long range and remote monitoring.
 
 ![ESPKnack](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20SDK.png)
 
@@ -231,7 +227,19 @@ Code support is available in my existing [GitHub](https://github.com/DitroniX)  
 
 This is a worldwide community project and is able to be integrated in so many systems.
 
+## Availability and Timeline.
 
+**ESPKnack** Launched on [Kickstarter](https://www.kickstarter.com/projects/ditronix/espknack-lora-isolated-io-rs485-5-60v-4-20ma-rtc-din) in March, with planned shipping in May.
+
+## Post Campaign Availability
+
+The **ESPKnack** and its accessories, will be available on my webstore and also on eBay.
+
+DitroniX [Webstore](https://ditronix.net/)
+
+DitroniX [eBay](https://www.ebay.co.uk/usr/ditronixuk)
+
+Any queries or requirements, please [contact me.](https://ditronix.net/contact/)
 
 ## **Further Information**
 
