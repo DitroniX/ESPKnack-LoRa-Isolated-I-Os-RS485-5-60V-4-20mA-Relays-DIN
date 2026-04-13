@@ -277,3 +277,5 @@ Electronics Engineer | Software Developer | R&D Support | RF Engineering | Produ
 
 **Supporting [STEM Learning](https://www.stem.org.uk/)**
 
+Tags: 2.4GHz, 24V DC Output, 4-28mA Current Loop, 5-60V DC Input, 868MHz, ADC, Agriculture, Bluetooth, DIN Enclosure, Display, DS3231SN, Educational, EEPROM, ESP32-C6, ESPKnack, Expansion Interface, Farming, Galvanic Isolated Inputs, Galvanic Isolated Outputs, I2C Interface, Industrial, IPEM Plus, JST 12W 1mm, JST 6W 1mm, JST SH, LoRa, MicroSD, OLED, Opto Isolator, RadioLib, Relays, RGB WS2812, RS485, RTC, Solar Farm, SPI Interface, STEM, SX1262, Tactile Button, Thread, Type C, User Panel, Wi-Fi, WS2811, WS2812, Zigbee
+
