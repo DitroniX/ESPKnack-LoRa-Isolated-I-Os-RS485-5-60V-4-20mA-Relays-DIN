@@ -89,6 +89,7 @@ The **ESPKnack** board can be used in a wide range of projects and installations
 -   Livestock Monitoring
 -   Makers
 -   Off Grid Systems
+-   Predictive Maintenance
 -   Robotics
 -   Scientific Research
 -   Security
