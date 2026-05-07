@@ -217,6 +217,7 @@ This is a worldwide community project and is able to be integrated in so many sy
 Timeline Guide
 ![TimelineGuide](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/blob/main/Datasheets%20and%20Information/ESPKnack%20Guide%20Timeline.png)
 
+-   26-05-07 - The boards are about to go through XRay, final QC inspection and wave soldering for PTH parts.  Hopefully, should not be long now, before they are shipped to me for finalising, testing and kitting.
 -   26-04-30 - The ESPKnack boards are in SMT production.  They will then be tested, kitted and shipped.  Updates to follow.
 -   26-04-11 - Many thanks for all your pledges and support. Awaiting Kickstarter to process the Backers Pledges.
 -   26-03-27 - GitHub Wiki Pages Expanded, along with Code Examples.
