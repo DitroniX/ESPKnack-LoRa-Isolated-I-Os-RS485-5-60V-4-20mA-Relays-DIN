@@ -24,38 +24,47 @@
   * hackster.io/DitroniX/espknack-lora-isolated-i-os-rs485-5-60v-4-20ma-relays-sdk-b70677
 */
 
+// https://randomnerdtutorials.com/esp32-spi-communication-arduino/
+
+// ESP32-C6 Serial Port Initialized
+// These GPIO values are defauilt C6 and not what ESPKnack board uses
+// MOSI: 22
+// MISO: 23
+// SCL / SCLK: 21
+// CS / SS: 0
+// SDA: 19
+// SCL: 18
+
+
 // Libraries
-#include "WiFi.h"
+#include <Arduino.h>
+#include <Wire.h>
+#include <SPI.h>
 
-// **************** USER VARIABLES / DEFINES / STATIC / STRUCTURES / CONSTANTS ****************
-
-uint64_t chipid = ESP.getEfuseMac();  // Get ChipID (essentially the MAC address)
-
-// **************** FUNCTIONS AND ROUTINES ****************
-
-// **************** SETUP ****************
 void setup() {
-  // Stabalise
-  delay(250);
-
-  // Initialise UART
-  Serial.begin(115200, SERIAL_8N1);  //115200
+  Serial.begin(115200);
   while (!Serial)
-    ;
-  Serial.println("");
+    ;  // Wait for serial port to connect
+  Serial.println("\n\nESP32-C6 Serial Port Initialized");
+  Serial.println("These GPIO values are defauilt C6 and not what ESPKnack board uses");
 
-  WiFi.mode(WIFI_MODE_STA);
+  Serial.print("MOSI: ");
+  Serial.println(MOSI);
 
-  Serial.print("ESPKnack MAC Address:\t");
-  Serial.println(WiFi.macAddress());
+  Serial.print("MISO: ");
+  Serial.println(MISO);
 
-  Serial.printf("ESPKnack Serial ID:\t%04X", (uint16_t)(chipid >> 32));
-  Serial.printf("%08X", (uint32_t)chipid);
-  Serial.println("");
+  Serial.print("SCL / SCLK: ");
+  Serial.println(SCK);
 
-  Serial.println("\nESPKnack Bring Up and Test Example Code");
+  Serial.print("CS / SS: ");
+  Serial.println(SS);
+
+  Serial.print("SDA: ");
+  Serial.println(SDA);
+
+  Serial.print("SCL: ");
+  Serial.println(SCL);
 }
 
-// **************** LOOP ****************
-void loop() {
-}
+void loop() {}

@@ -25,16 +25,10 @@
 */
 
 // Libraries
-#include <WiFi.h>
+#include <Arduino.h>
+#include "WiFi.h"
 
 // ****************  VARIABLES / DEFINES / STATIC ****************
-
-// Constants
-int WifiMaxAPScan = 8;  // Multiple WiFi Scan Maximum APs (Default 8)
-
-WiFiClient client;  // Initialize the client library
-
-char buffer[20];
 
 // Return Some Meaningful Information From RSSI
 String RSSI_Info(int RSSI_Value) {
@@ -80,46 +74,67 @@ void setup() {
   while (!Serial)
     ;
 
-  // Set WiFi to station mode and disconnect from an AP if it was previously connected
-  WiFi.mode(WIFI_STA);
-  WiFi.disconnect();
+  // Enable Station mode
+  WiFi.STA.begin();
+  // Or classic way: WiFi.mode(WIFI_STA); WiFi.disconnect();
 
   Serial.println("ESPKnack Bring Up and Test Example Code");
 }
 
-void loop() {
+void scanWiFi(const char* title) {
+  Serial.printf("\n--- %s ---\n", title);
+  Serial.println("Scan start...");
 
-  Serial.println("\nESPKnack WiFi MAC \t " + WiFi.macAddress());
-  Serial.println("Scanning for Access Points, or Routers.  Please wait....");
-  delay(100);
+  int n = WiFi.scanNetworks();  // Returns number of networks found
 
-  // WiFi.scanNetworks will return the number of networks found
-  int n = WiFi.scanNetworks();
-  Serial.print("Scan Complete.  ");
+  Serial.printf("Scan done: %d networks found\n", n);
 
   if (n == 0) {
-    Serial.println("No Access Points, or Routers, Found.");
+    Serial.println("No networks found.");
   } else {
-    Serial.print(n);
-    Serial.println(" Access Points, or Routers, Found.");
-    Serial.println("");
+    Serial.println("Nr | SSID                             | RSSI  | CH | Encryption");
+    Serial.println("---------------------------------------------------------------");
 
     for (int i = 0; i < n; ++i) {
+      Serial.printf("%2d | %-32.32s | %4d | %2d | ",
+                    i + 1,
+                    WiFi.SSID(i).c_str(),
+                    WiFi.RSSI(i),
+                    WiFi.channel(i));
 
-      // Print SSID and RSSI for each network found
-      Serial.print(i + 1);
-      Serial.print(":");
-      sprintf(buffer, "% 18s", WiFi.SSID(i));
-      Serial.print(buffer);
-      Serial.print("\t(");
-      Serial.print("WiFi RSSI " + String(WiFi.RSSI(i)) + " dBm (" + RSSI_Info(WiFi.RSSI(i)) + ")");
-      Serial.println((WiFi.encryptionType(i) == WIFI_AUTH_OPEN) ? " " : "*");
-
-      // Do Not Unnecessarily Dither - Scan first X Access Points Only
-      if (i >= (WifiMaxAPScan - 1))
-        break;
+      switch (WiFi.encryptionType(i)) {
+        case WIFI_AUTH_OPEN: Serial.print("Open"); break;
+        case WIFI_AUTH_WEP: Serial.print("WEP"); break;
+        case WIFI_AUTH_WPA_PSK: Serial.print("WPA"); break;
+        case WIFI_AUTH_WPA2_PSK: Serial.print("WPA2"); break;
+        case WIFI_AUTH_WPA_WPA2_PSK: Serial.print("WPA+WPA2"); break;
+        case WIFI_AUTH_WPA2_ENTERPRISE: Serial.print("WPA2-Enterprise"); break;
+        case WIFI_AUTH_WPA3_PSK: Serial.print("WPA3"); break;
+        case WIFI_AUTH_WPA2_WPA3_PSK: Serial.print("WPA2+WPA3"); break;
+        case WIFI_AUTH_WAPI_PSK: Serial.print("WAPI"); break;
+        default: Serial.print("Unknown"); break;
+      }
+      Serial.println();
+      delay(10);
     }
   }
 
+  WiFi.scanDelete();  // Free memory
+}
+
+void loop() {
+  // Default / Auto band scan
+  scanWiFi("Default / Auto Band Scan");
+
+#if CONFIG_SOC_WIFI_SUPPORT_5G
   delay(2000);
+  WiFi.setBandMode(WIFI_BAND_MODE_2G_ONLY);
+  scanWiFi("2.4 GHz Only");
+
+  delay(2000);
+  WiFi.setBandMode(WIFI_BAND_MODE_5G_ONLY);
+  scanWiFi("5 GHz Only");
+#endif
+
+  delay(10000);  // Scan every 10 seconds
 }

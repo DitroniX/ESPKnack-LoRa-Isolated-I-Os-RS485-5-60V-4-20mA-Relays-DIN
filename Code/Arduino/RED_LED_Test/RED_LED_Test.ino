@@ -25,11 +25,12 @@
 */
 
 // Libraries
-#include "WiFi.h"
+#include <Arduino.h>
 
 // **************** USER VARIABLES / DEFINES / STATIC / STRUCTURES / CONSTANTS ****************
 
-uint64_t chipid = ESP.getEfuseMac();  // Get ChipID (essentially the MAC address)
+// **************** OUTPUTS ****************
+#define LED_Red 22  // Red LED
 
 // **************** FUNCTIONS AND ROUTINES ****************
 
@@ -39,23 +40,26 @@ void setup() {
   delay(250);
 
   // Initialise UART
-  Serial.begin(115200, SERIAL_8N1);  //115200
+  Serial.begin(115200, SERIAL_8N1);  // 115200
   while (!Serial)
     ;
   Serial.println("");
 
-  WiFi.mode(WIFI_MODE_STA);
+  //  Configures the specified LED GPIO as outputs
+  pinMode(LED_Red, OUTPUT);
 
-  Serial.print("ESPKnack MAC Address:\t");
-  Serial.println(WiFi.macAddress());
+  // LEDs Default Off State
+  digitalWrite(LED_Red, LOW);
 
-  Serial.printf("ESPKnack Serial ID:\t%04X", (uint16_t)(chipid >> 32));
-  Serial.printf("%08X", (uint32_t)chipid);
-  Serial.println("");
-
-  Serial.println("\nESPKnack Bring Up and Test Example Code");
+  Serial.println("ESPKnack Bring Up and Test Example Code");
 }
 
 // **************** LOOP ****************
 void loop() {
+  // Red
+  digitalWrite(LED_Red, HIGH);
+  delay(250);
+  digitalWrite(LED_Red, LOW);
+  delay(1000);
 }
+//

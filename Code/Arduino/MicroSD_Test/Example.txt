@@ -1,0 +1,41 @@
+ESPKnack Bring Up and Test Example Code
+Basic MicroSD Test on SPI Expansion Port
+SD Card Type: SDHC
+SD Card Size: 30250MB
+Listing directory: /
+  DIR : System Volume Information
+  FILE: test.txt  SIZE: 1048576
+  FILE: foo.txt  SIZE: 13
+Creating Dir: /mydir
+Directory Created
+Listing directory: /
+  DIR : System Volume Information
+  FILE: test.txt  SIZE: 1048576
+  FILE: foo.txt  SIZE: 13
+  DIR : mydir
+Removing Directory: /mydir
+Directory Removed
+Listing directory: /
+  DIR : System Volume Information
+Listing directory: System Volume Information
+Failed to open directory
+  FILE: test.txt  SIZE: 1048576
+  FILE: foo.txt  SIZE: 13
+Writing file: /hello.txt
+File Written
+Appending to file: /hello.txt
+Message Appended
+Reading File: /hello.txt
+Read from file: Hello World!
+Deleting file: /foo.txt
+File Deleted
+Renaming file /hello.txt to /foo.txt
+File Renamed
+Reading File: /foo.txt
+Read from file: Hello World!
+1048576 bytes read for 2825 ms
+1048576 bytes written for 2724 ms
+
+Total space: 30238MB
+
+Used space: 3MB

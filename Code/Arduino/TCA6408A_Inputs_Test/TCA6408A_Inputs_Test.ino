@@ -3,7 +3,7 @@
   ESPKnack - IoT ESP32-C6 Based Home and Industrial Controller SDK
   Features include ESP32-C6, LoRa, Isolated I/Os, RS485, 5-60V, 4-20mA, Relays, DIN SDK
 
-  PCA 1.2603 - Basic Bring Up Test Code - March 2026
+  PCA 1.2604 - Basic Bring Up Test Code - May 2026
  
   Remember!
   - Set the BOARD to Use ESP32C6 Dev Module (or similar).
@@ -79,13 +79,13 @@ void setup() {
   Wire.setClock(I2C_CLOCK);  // 400kHz | Standard-mode (Sm) and Fast-mode (Fm) which can go up to 100kHz and 400kHz respectively
 
   // Set P0–P3 as inputs, P4–P7 as outputs
-  writeRegister(REG_CONFIG, 0x0F);  // 0x0F 00001111
+  writeRegister(REG_CONFIG, 0xFF);  // 0x0F 00001111
 
   // Invert input polarity (so pressing button = 1)
-  writeRegister(REG_POLARITY, 0x0F);  // 00001111
+  writeRegister(REG_POLARITY, 0x00);  // 0x0F 00001111
 
   // Initialize outputs to off (all LEDs off)
-  writeRegister(REG_OUTPUT, 0x0F);
+  // writeRegister(REG_OUTPUT, 0x00);
 
   Serial.println("ESPKnack Bring Up and Test Example Code");
 }
@@ -94,19 +94,15 @@ void setup() {
 void loop(void) {
 
   // Read inputs
-  uint8_t input = readRegister(REG_INPUT) & 0x0F;
+  uint8_t input = readRegister(REG_INPUT);  //& 0xFF;
 
+  // Print States
+  Serial.println("\n\n7 6 5 4 3 2 1 0");
 
-  // Print input/output states
-  Serial.print("Inputs (P0–P3): ");
-  Serial.print(input, BIN);
-  Serial.println("");
+  uint8_t bitmask = B10000000;
+  for (; bitmask; bitmask >>= 1) {
+    Serial.print(bitmask & input ? '1' : '0');
+    Serial.print(" ");
+  }
   delay(1000);
-
-  // static uint8_t Number = 0;
-  // Serial.println(Number, BIN);
-  // Number += 1;
-  // writeRegister(REG_OUTPUT, BIN);
-  // if (Number > 256) Number = 0;
-  // delay(100);
 }

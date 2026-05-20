@@ -3,7 +3,7 @@
   ESPKnack - IoT ESP32-C6 Based Home and Industrial Controller SDK
   Features include ESP32-C6, LoRa, Isolated I/Os, RS485, 5-60V, 4-20mA, Relays, DIN SDK
 
-  PCA 1.2603 - Basic Bring Up Test Code - March 2026
+  PCA 1.2604 - Basic Bring Up Test Code - May 2026
  
   Remember!
   - Set the BOARD to Use ESP32C6 Dev Module (or similar).
@@ -47,7 +47,8 @@ const int AverageSamples = 50;  // Average Multi-Samples on each Channel Read.  
 const int AverageDelay = 10;    // Average Inter Multi-Sample ms Delay.  (Default 10)
 
 // Voltage Other
-const float VoltageFactor = 23.6320;  // DC Input Scaled Multiplier (Default 23.6320)
+const float VINVoltageFactor = 80.46;   // DC Input Scaled Multiplier (Default 80.46 with Batch 1.2604.105)
+const float ADCVoltageFactor = 23.6320;  // DC Input Scaled Multiplier (Default 23.6320)
 
 // Current User
 const float DCCurrentFactor = 6.369427;  // Current Scaling Adjustment.  (Default 6.369427)
@@ -55,7 +56,7 @@ const float DCCurrentOffset = -0.01;     // Current Zero Calibration Offset (Def
 const float DCCurrentThreshold = 0.63;   // Minimum Current - removing noise.  (Default 0.63)
 
 // Externs - No Change
-float DCVoltageDrop = 0.616;  // 5V via Diodes on 60V Net.
+float DCVoltageDrop = 0.465;  // 5V via Diodes on 60V Net - Schottky Barrier Diode
 
 // **************** INSTANCES ****************
 
@@ -165,19 +166,26 @@ void loop(void) {
   // ----------------------------------------------------
 
   // ADCV0 - Output Expressed Values
-  DCVoltage = (ADCV0 * 23.6334) + DCVoltageDrop;
+  DCVoltage = (ADCV0 * VINVoltageFactor) + DCVoltageDrop;
 
   if (DCVoltage < 0) DCVoltage = 0;  // Remove Noise
 
   Serial.print("VIN Calculated: \t");
   Serial.print(DCVoltage);
-  Serial.println("V");
+  Serial.print("V");
+
+  if (DCVoltage > 1 && DCVoltage < 6)
+    Serial.print("\t(Looks like USB Supply)");
+
+  if (DCVoltage > 70)
+    Serial.print("\t(WARNING - OVER VOLTAGE)");
+
+  Serial.println("");
 
   // ----------------------------------------------------
 
   // ADC1 - 4-20mA
   DCVoltage = (ADCV1 * DCCurrentFactor) + DCCurrentOffset;
-
   if (DCVoltage < 0) DCVoltage = 0;  // Remove Noise
 
   Serial.print("ADC1 Calculated: \t");
@@ -201,7 +209,7 @@ void loop(void) {
   Serial.print(DCVoltage);
   Serial.print("V");
 
-  DCVoltage = (ADCV2 * VoltageFactor) + DCVoltageDrop;
+  DCVoltage = (ADCV2 * ADCVoltageFactor) + DCVoltageDrop;
 
   if (DCVoltage < 0.65) DCVoltage = 0;
 
@@ -220,7 +228,7 @@ void loop(void) {
   Serial.print(DCVoltage);
   Serial.print("V");
 
-  DCVoltage = (ADCV3 * VoltageFactor) + DCVoltageDrop;
+  DCVoltage = (ADCV3 * ADCVoltageFactor) + DCVoltageDrop;
 
   if (DCVoltage < 0.65) DCVoltage = 0;
 

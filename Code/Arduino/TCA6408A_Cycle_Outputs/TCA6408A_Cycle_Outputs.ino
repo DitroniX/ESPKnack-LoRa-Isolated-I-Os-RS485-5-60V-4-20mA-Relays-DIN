@@ -25,13 +25,13 @@
 */
 
 // Libraries
-#include "WiFi.h"
+#include <Arduino.h>
+#include <TCA6408A.h>  // Library or see https://github.com/RobTillaart/TCA6408A_RT
 
-// **************** USER VARIABLES / DEFINES / STATIC / STRUCTURES / CONSTANTS ****************
+TCA6408A tca(0x21);
 
-uint64_t chipid = ESP.getEfuseMac();  // Get ChipID (essentially the MAC address)
-
-// **************** FUNCTIONS AND ROUTINES ****************
+#define I2C_SDA 6
+#define I2C_SCL 7
 
 // **************** SETUP ****************
 void setup() {
@@ -39,23 +39,38 @@ void setup() {
   delay(250);
 
   // Initialise UART
-  Serial.begin(115200, SERIAL_8N1);  //115200
+  Serial.begin(115200, SERIAL_8N1);  // U0
   while (!Serial)
     ;
   Serial.println("");
 
-  WiFi.mode(WIFI_MODE_STA);
+  // Initialize I2C
+  Wire.begin(I2C_SDA, I2C_SCL);
+  Wire.setClock(100000);  // Set to 100 (default) or 400 kHz
 
-  Serial.print("ESPKnack MAC Address:\t");
-  Serial.println(WiFi.macAddress());
+  if (tca.begin() == false) {
+    Serial.println("No TCA found.");
+    while (1)
+      ;
+  }
 
-  Serial.printf("ESPKnack Serial ID:\t%04X", (uint16_t)(chipid >> 32));
-  Serial.printf("%08X", (uint32_t)chipid);
-  Serial.println("");
+  //  Set 4-7 pins as outputs
+  tca.setPinMode8(0x0F);
 
-  Serial.println("\nESPKnack Bring Up and Test Example Code");
+  //  Set all pins to OFF
+  tca.digitalWrite8(0x00);
+
+  Serial.println("ESPKnack Bring Up and Test Example Code");
 }
 
 // **************** LOOP ****************
 void loop() {
+  for (int pin = 4; pin <= 7; pin++) {
+    tca.digitalWrite1(pin, 1);
+    Serial.println(pin);
+    delay(1000);
+
+    //  Set all pins to OFF
+    tca.digitalWrite8(0x00);
+  }
 }

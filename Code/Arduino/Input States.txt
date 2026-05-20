@@ -1,0 +1,29 @@
+GPIO00 | LOW       | Floating / IE        | 
+GPIO01 | LOW       | Floating / IE        | 
+GPIO02 | LOW       | Floating / IE        | STRAPPING
+GPIO03 | LOW       | Floating / IE        | 
+GPIO04 | HIGH      | Floating / IE        | 
+GPIO05 | LOW       | Floating / IE        | 
+GPIO06 | LOW       | Floating / IE        | 
+GPIO07 | LOW       | HIGH (strapping)     | STRAPPING
+GPIO08 | LOW       | Floating / IE        | 
+GPIO09 | LOW       | Floating / IE        | 
+GPIO10 | LOW       | Floating / IE        | 
+GPIO11 | HIGH      | Floating / IE        | 
+GPIO12 | HIGH      | HIGH (WPU)           | 
+GPIO13 | LOW       | Floating / IE        | 
+GPIO14 | HIGH      | HIGH (USB_PU)        | 
+GPIO15 | HIGH      | HIGH (flash WPU)     | 
+GPIO16 | HIGH      | HIGH (flash WPU)     | 
+GPIO17 | LOW       | HIGH (flash WPU)     | 
+GPIO18 | LOW       | HIGH (flash WPU)     | 
+GPIO19 | LOW       | HIGH (flash WPU)     | 
+GPIO20 | HIGH      | HIGH (flash WPU)     | 
+GPIO21 | LOW       | HIGH (flash WPU)     | 
+GPIO22 | LOW       | HIGH (flash WPU)     | 
+GPIO23 | LOW       | Floating / IE        | 
+GPIO24 | LOW       | Floating / IE        | 
+GPIO25 | LOW       | Floating / IE        | 
+GPIO26 | LOW       | Floating / IE        | 
+GPIO27 | HIGH      | HIGH (WPU)           | 
+GPIO28 | HIGH      | HIGH (WPU)           | 

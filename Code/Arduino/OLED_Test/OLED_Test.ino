@@ -3,7 +3,7 @@
   ESPKnack - IoT ESP32-C6 Based Home and Industrial Controller SDK
   Features include ESP32-C6, LoRa, Isolated I/Os, RS485, 5-60V, 4-20mA, Relays, DIN SDK
 
-  PCA 1.2603 - Basic Bring Up Test Code - March 2026
+  PCA 1.2604 - Basic Bring Up Test Code - May 2026
  
   Remember!
   - Set the BOARD to Use ESP32C6 Dev Module (or similar).
@@ -23,6 +23,7 @@
   * github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN/wiki
   * hackster.io/DitroniX/espknack-lora-isolated-i-os-rs485-5-60v-4-20ma-relays-sdk-b70677
 */
+
 
 // Libraries
 #include <GyverOLED.h>
