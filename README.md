@@ -188,10 +188,6 @@ This RS-485 interface could also be used to control local CCTV on remote install
 
 In addition to RS485, it is possible to use this interface for Lighting Controller or Analyser/monitor control through DMX, or DMX512.
 
-### **Outline Features and Specifications**
-
-Full features to be updated.
-
 ### **Programming and Development**
 
 Development is primarily supported through Visual Studio Code (VSCode and PlatformIO) and Arduino IDE. This also includes platforms like Home Assistant via ESPHome.
